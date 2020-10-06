@@ -126,11 +126,16 @@
     background-color: #F4F4F4;
   }
 
+  .featured:nth-child(2) {
+    margin-bottom: 30px;
+  }
+
   h4 {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     color: #000000;
-    margin-top: 25px;
+    margin-top: 21px;
+    line-height: 1.5;
   }
 
   .featured-img-wrapper {
@@ -164,6 +169,14 @@
   }
 
   /*** OTHER PROJECTS ***/
+.other-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 58px 37px 50px 37px;
+  background-color: #F4F4F4;
+}
+
   h5 {
     font-family: 'Montserrat', sans-serif;
     font-size: 21px;
@@ -171,4 +184,39 @@
     color: #FA382F;
     margin-bottom: 20px;
   }
+
+  /*** MY THOUGHTS ***/
+  .my-thoughts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 58px 37px 0 37px;
+    background-color: #FFFFFF;
+  }
+
+  .article-date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #FA382F;
+    margin: 30px 0 5px 0;
+  }
+
+  h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    color: #000000;
+    line-height: 1.5;
+  }
+
+  .h4-my-thoughts {
+    margin-top: 2px;
+    line-height: 1.9;
+  }
+
+  /*** MORE THOUGHTS ***/
+  .h4-more-thoughts {
+    margin-top: 24px;
+    line-height: 1.5;
+  }
+
 
