@@ -227,6 +227,10 @@ h6 {
 
 /*** SKILLS ***/
 
+.h3-skills {
+  margin: 0;
+}
+
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -268,6 +272,33 @@ li {
 
 /*** CONTACT ***/
 
-.social-media-icons-bottom {
-  position: absolute;
+.contact {
+  background-color: #072BCE;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 37px 80px 37px;
+}
+
+.h3-contact {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border: 1px solid #072BCE;
+  background-color: #072BCE;
+}
+
+.contact-wrapper>p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  color: #FFFFFF;
+  line-height: 1.8;
+}
+
+.contact-name {
+  font-weight: bold;
 }
