@@ -108,13 +108,16 @@ h3 {
   background-color: #FA382F;
   padding: 3px 10px;
   margin-bottom: 37px;
+  /*added 8/10 to fit the background color to text width*/
+  width: fit-content;
+  align-self: center;
 }
 
 .tech {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 58px 37px 56px 37px;
+  padding: 60px 37px 70px 37px;
   background-color: #FFFFFF;
   text-align: center;
 }
@@ -268,6 +271,38 @@ li {
   font-size: 17px;
   color: #000000;
   line-height: 1.5;
+}
+
+/*** FOR MORE ***/
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-icons-bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon-bottom {
+  border: 3px solid #fa382f;
+  border-radius: 50%;
+  margin: 0 20px;
+}
+
+.icon-bottom-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-bottom-wrapper>p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: #FA382F;
+  margin-top: 12px;
 }
 
 /*** CONTACT ***/
