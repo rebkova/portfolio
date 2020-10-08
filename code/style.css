@@ -169,10 +169,10 @@ h3 {
   h3 {
     font-size: 35px;
     padding: 3px 10px;
-    margin-bottom: 37px;
+    margin-bottom: 43px;
   }
   .tech {
-    padding: 60px 125px 70px 125px;
+    padding: 80px 125px 70px 125px;
   }
   .text-red {
     color: #FA382F;
@@ -235,7 +235,17 @@ h4 {
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .featured-projects {
-    padding: 60px 125px 0 125px;
+    padding: 80px 125px 0 125px;
+  }
+  h4 {
+    font-size: 21px;
+    margin-top: 21px;
+    line-height: 1.5;
+  }
+  .featured-tag {
+    font-size: 13px;
+    padding: 4px 8px 3px 6px;
+    margin: 20px 8px 20px 0;
   }
 }
 
@@ -255,6 +265,18 @@ h5 {
   font-weight: bold;
   color: #FA382F;
   margin-bottom: 20px;
+}
+
+/*OTHER PROJECTS tablet view*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .other-projects {
+    padding: 75px 125px 70px 125px;
+  }
+  h5 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
 }
 
 /*** MY THOUGHTS ***/
@@ -286,11 +308,38 @@ h6 {
   line-height: 1.9;
 }
 
+/*MY THOUGHTS tablet view*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .my-thoughts {
+    padding: 80px 125px 0 125px;
+  }
+  .article-date {
+    font-size: 21px;
+    margin: 30px 0 5px 0;
+  }
+  .thoughts-img-tablet-desktop {
+    width: 100%;
+  }
+  h6 {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+}
+
 /*** MORE THOUGHTS ***/
 
 .h4-more-thoughts {
   margin-top: 24px;
   line-height: 1.5;
+}
+
+/*MORE THOUGHTS tablet view*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .my-thoughts>h5 {
+    margin-bottom: 20px;
+  }
 }
 
 /*** SKILLS ***/
@@ -336,6 +385,22 @@ li {
   font-size: 17px;
   color: #000000;
   line-height: 1.5;
+}
+
+/*SKILLS tablet view*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .skills {
+    margin-top: 65px;
+    padding: 80px 125px;
+  }
+  .skills-wrapper-individual {
+    padding: 0 15px;
+  }
+  li {
+    font-size: 21px;
+    line-height: 1.5;
+  }
 }
 
 /*** FOR MORE ***/
@@ -401,4 +466,18 @@ li {
 
 .contact-name {
   font-weight: bold;
+}
+
+/*CONTACT tablet view*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .contact-wrapper {
+    padding: 80px 125px 100px 125px;
+  }
+  .h3-contact {
+    font-size: 30px;
+  }
+  .contact-wrapper>p {
+    font-size: 26px;
+  }
 }
