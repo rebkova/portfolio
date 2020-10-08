@@ -29,16 +29,6 @@ header {
   margin: 0 1.5px;
 }
 
-header img {
-  max-width: 100%;
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  filter: brightness(0.6);
-}
-
 .title {
   display: flex;
   flex-direction: column;
@@ -50,6 +40,7 @@ header img {
   letter-spacing: 0.52px;
   color: #FFFFFF;
   text-transform: uppercase;
+  z-index: 1;
 }
 
 .bold {
@@ -60,6 +51,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   color: #FFFFFF;
+  z-index: 1;
 }
 
 h1:nth-child(4) {
@@ -76,6 +68,16 @@ h1:nth-child(4) {
   position: absolute;
   top: 13vh;
   left: 60.5vw;
+}
+
+.hero-image {
+  max-width: 100%;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  filter: brightness(0.6);
 }
 
 /*** INTRODUCTION ***/
