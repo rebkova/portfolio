@@ -138,14 +138,25 @@ h1:nth-child(4) {
 .introduction {
   padding: 58px 37px 56px 37px;
   background-color: #F4F4F4;
-}
-
-h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
   font-weight: normal;
   color: #000000;
 }
+
+.introduction>p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  color: #000000;
+}
+
+/* h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  color: #000000;
+} */
 
 .intro-hello {
   color: #FA382F;
@@ -159,7 +170,7 @@ h2 {
     padding: 60px 125px 70px 125px;
     background-color: #F4F4F4;
   }
-  h2 {
+  .introduction>p {
     font-size: 24px;
   }
 }
@@ -171,14 +182,14 @@ h2 {
     padding: 110px 135px 110px 135px;
     background-color: #F4F4F4;
   }
-  h2 {
+  .introduction>p {
     font-size: 30px;
   }
 }
 
 /*** TECH ***/
 
-h3 {
+h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   font-weight: bold;
@@ -190,6 +201,13 @@ h3 {
   /*added on 8/10 to fit the background color to text width*/
   width: fit-content;
   align-self: center;
+}
+
+.tech>p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  color: #000000;
 }
 
 .tech {
@@ -211,6 +229,9 @@ h3 {
   .tech {
     padding: 80px 125px 70px 125px;
   }
+  .tech>p {
+    font-size: 24px;
+  }
   .text-red {
     color: #FA382F;
   }
@@ -225,6 +246,9 @@ h3 {
   }
   .tech {
     padding: 90px 135px;
+  }
+  .tech>p {
+    font-size: 30px;
   }
   .text-red {
     color: #FA382F;
@@ -245,13 +269,23 @@ h3 {
   margin-bottom: 30px;
 }
 
-h4 {
+.featured-projects-text {
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
   color: #000000;
   margin-top: 21px;
   line-height: 1.5;
 }
+
+/*INITIAL H4 POSITION*/
+
+/* h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  color: #000000;
+  margin-top: 21px;
+  line-height: 1.5;
+} */
 
 .featured-img-wrapper {
   width: 100%;
@@ -289,7 +323,7 @@ h4 {
   .featured-projects {
     padding: 80px 125px 0 125px;
   }
-  h4 {
+  .featured-projects-text {
     font-size: 21px;
     margin-top: 21px;
     line-height: 1.5;
@@ -321,7 +355,7 @@ h4 {
     width: 95%;
     height: 220px;
   }
-  h4 {
+  .featured-projects-text {
     font-size: 25px;
     margin-top: 21px;
     line-height: 1.5;
@@ -347,7 +381,7 @@ h4 {
   flex-direction: column;
 }
 
-h5 {
+h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 21px;
   font-weight: bold;
@@ -356,13 +390,22 @@ h5 {
   align-self: center;
 }
 
+/* h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  color: #FA382F;
+  margin-bottom: 20px;
+  align-self: center;
+} */
+
 /*OTHER PROJECTS tablet view*/
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .other-projects {
     padding: 75px 125px 70px 125px;
   }
-  h5 {
+  h3 {
     font-size: 30px;
     margin-bottom: 30px;
   }
@@ -374,7 +417,7 @@ h5 {
   .other-projects {
     padding: 75px 135px 70px 135px;
   }
-  h5 {
+  h3 {
     font-size: 38px;
     margin-bottom: 30px;
   }
@@ -404,14 +447,26 @@ h5 {
   margin: 30px 0 5px 0;
 }
 
-h6 {
+.my-thoughts-title {
   font-family: 'Roboto', sans-serif;
   font-size: 21px;
   color: #000000;
   line-height: 1.5;
 }
 
-.h4-my-thoughts {
+/*INITIAL H6 POSITION*/
+
+/* h6 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  color: #000000;
+  line-height: 1.5;
+} */
+
+.my-thoughts-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  color: #000000;
   margin-top: 2px;
   line-height: 1.9;
 }
@@ -432,7 +487,7 @@ h6 {
   .thoughts-img-tablet-desktop {
     width: 100%;
   }
-  h6 {
+  .my-thoughts-title {
     font-size: 25px;
     line-height: 1.5;
   }
@@ -464,7 +519,7 @@ h6 {
     font-size: 25px;
     margin: 45px 0 5px 0;
   }
-  h6 {
+  .my-thoughts-title {
     font-size: 30px;
   }
 }
@@ -484,7 +539,7 @@ h6 {
 /*MORE THOUGHTS tablet view*/
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .my-thoughts>h5 {
+  .my-thoughts>h3 {
     margin-bottom: 20px;
   }
 }
@@ -492,14 +547,14 @@ h6 {
 /*MORE THOUGHTS desktop view*/
 
 @media (min-width: 1024px) {
-  .my-thoughts>h5 {
+  .my-thoughts>h3 {
     margin-bottom: 20px;
   }
 }
 
 /*** SKILLS ***/
 
-.h3-skills {
+.h2-skills {
   margin: 0;
 }
 
@@ -629,7 +684,7 @@ li {
   padding: 60px 37px 80px 37px;
 }
 
-.h3-contact {
+.h2-contact {
   font-family: 'Montserrat', sans-serif;
   font-size: 21px;
   font-weight: bold;
