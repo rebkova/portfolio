@@ -348,6 +348,7 @@ h5 {
   font-weight: bold;
   color: #FA382F;
   margin-bottom: 20px;
+  align-self: center;
 }
 
 /*OTHER PROJECTS tablet view*/
@@ -378,8 +379,7 @@ h5 {
 
 .my-thoughts {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   padding: 58px 37px 0 37px;
   background-color: #FFFFFF;
 }
