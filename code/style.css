@@ -13,7 +13,8 @@ body {
 
 header {
   max-width: 100%;
-  margin: 50px 35px 0 35px;
+  padding: 50px 35px 0 35px;
+  background-color: #072BCE;
 }
 
 .social-media-icons {
@@ -84,7 +85,7 @@ h1:nth-child(4) {
 
 @media (min-width: 768px) and (max-width: 1023px) {
   header {
-    margin: 95px 125px 50px 125px;
+    padding: 95px 125px 50px 125px;
   }
   .social-media-icons {
     top: 6vh;
@@ -112,7 +113,7 @@ h1:nth-child(4) {
 
 @media (min-width: 1024px) {
   header {
-    margin: 160px 135px 60px 135px;
+    padding: 160px 135px 60px 135px;
   }
   .title-header {
     font-size: 28px;
