@@ -337,10 +337,14 @@ h4 {
 
 .other-projects {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   padding: 58px 37px 50px 37px;
   background-color: #F4F4F4;
+}
+
+.other-projects-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 h5 {
