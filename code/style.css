@@ -108,6 +108,30 @@ h1:nth-child(4) {
   }
 }
 
+/* HEADER desktop view*/
+
+@media (min-width: 1024px) {
+  header {
+    margin: 160px 135px 60px 135px;
+  }
+  .title-header {
+    font-size: 28px;
+    letter-spacing: 1.12px;
+  }
+  h1 {
+    font-size: 82px;
+  }
+  h1:nth-child(4) {
+    font-size: 50px;
+  }
+  .profile-image {
+    width: 300px;
+    height: 300px;
+    top: 27vh;
+    left: 56.5vw;
+  }
+}
+
 /*** INTRODUCTION ***/
 
 .introduction {
@@ -132,9 +156,22 @@ h2 {
 @media (min-width: 768px) and (max-width: 1023px) {
   .introduction {
     padding: 60px 125px 70px 125px;
+    background-color: #F4F4F4;
   }
   h2 {
     font-size: 24px;
+  }
+}
+
+/*INTRODUCTION desktop view*/
+
+@media (min-width: 1024px) {
+  .introduction {
+    padding: 160px 135px 60px 135px;
+    background-color: #F4F4F4;
+  }
+  h2 {
+    font-size: 30px;
   }
 }
 
@@ -168,11 +205,25 @@ h3 {
 @media (min-width: 768px) and (max-width: 1023px) {
   h3 {
     font-size: 35px;
-    padding: 3px 10px;
     margin-bottom: 43px;
   }
   .tech {
     padding: 80px 125px 70px 125px;
+  }
+  .text-red {
+    color: #FA382F;
+  }
+}
+
+/*TECH desktop view*/
+
+@media (min-width: 1024px) {
+  h3 {
+    font-size: 48px;
+    margin-bottom: 43px;
+  }
+  .tech {
+    padding: 90px 135px;
   }
   .text-red {
     color: #FA382F;
@@ -249,6 +300,38 @@ h4 {
   }
 }
 
+/*FEATURED PROJECTS desktop view*/
+
+@media (min-width: 1024px) {
+  .featured {
+    margin: 5px;
+  }
+  .featured:nth-child(2) {
+    margin-bottom: 0;
+  }
+  .featured-projects {
+    padding: 80px 135px 0 135px;
+  }
+  .featured-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .featured-img-wrapper {
+    width: 95%;
+    height: 220px;
+  }
+  h4 {
+    font-size: 25px;
+    margin-top: 21px;
+    line-height: 1.5;
+  }
+  .featured-tag {
+    font-size: 16px;
+    padding: 4px 8px 3px 6px;
+    margin: 20px 8px 20px 0;
+  }
+}
+
 /*** OTHER PROJECTS ***/
 
 .other-projects {
@@ -279,6 +362,18 @@ h5 {
   }
 }
 
+/*OTHER PROJECTS desktop view*/
+
+@media (min-width: 1024px) {
+  .other-projects {
+    padding: 75px 135px 70px 135px;
+  }
+  h5 {
+    font-size: 38px;
+    margin-bottom: 30px;
+  }
+}
+
 /*** MY THOUGHTS ***/
 
 .my-thoughts {
@@ -287,6 +382,14 @@ h5 {
   justify-content: center;
   padding: 58px 37px 0 37px;
   background-color: #FFFFFF;
+}
+
+.article-wrapper {
+  margin: 10px 0 35px 0;
+}
+
+.title-hidden {
+  display: none;
 }
 
 .article-date {
@@ -314,6 +417,9 @@ h6 {
   .my-thoughts {
     padding: 80px 125px 0 125px;
   }
+  .article-wrapper {
+    margin: 40px 0 20px 0;
+  }
   .article-date {
     font-size: 21px;
     margin: 30px 0 5px 0;
@@ -327,7 +433,43 @@ h6 {
   }
 }
 
+/*MY THOUGHTS desktop view*/
+
+@media (min-width: 1024px) {
+  .my-thoughts {
+    padding: 105px 135px 0 135px;
+  }
+  .title-visible {
+    display: none;
+  }
+  .title-hidden {
+    display: block;
+  }
+  .articles {
+    display: flex;
+    justify-content: space-between;
+  }
+  .article-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 46%;
+  }
+  .article-date {
+    font-size: 25px;
+    margin: 45px 0 5px 0;
+  }
+  h6 {
+    font-size: 30px;
+  }
+}
+
 /*** MORE THOUGHTS ***/
+
+.more-thoughts-wrap {
+  display: flex;
+  flex-direction: column;
+}
 
 .h4-more-thoughts {
   margin-top: 24px;
@@ -342,6 +484,14 @@ h6 {
   }
 }
 
+/*MORE THOUGHTS desktop view*/
+
+@media (min-width: 1024px) {
+  .my-thoughts>h5 {
+    margin-bottom: 20px;
+  }
+}
+
 /*** SKILLS ***/
 
 .h3-skills {
@@ -350,8 +500,7 @@ h6 {
 
 .skills {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   margin-top: 65px;
   background-color: #F4F4F4;
   padding: 57px 37px;
@@ -403,6 +552,21 @@ li {
   }
 }
 
+/*SKILLS desktop view*/
+
+@media (min-width: 1024px) {
+  .skills {
+    padding: 93px 135px;
+  }
+  .skills-wrapper-individual {
+    padding: 0 30px;
+  }
+  li {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+}
+
 /*** FOR MORE ***/
 
 .social-media {
@@ -433,6 +597,18 @@ li {
   font-weight: bold;
   color: #FA382F;
   margin-top: 12px;
+}
+
+/*FOR MORE desktop view*/
+
+@media (min-width: 1024px) {
+  .social-media-icons-bottom {
+    display: flex;
+    justify-content: center;
+  }
+  .icon-bottom-wrapper {
+    margin: 10px;
+  }
 }
 
 /*** CONTACT ***/
@@ -479,5 +655,19 @@ li {
   }
   .contact-wrapper>p {
     font-size: 26px;
+  }
+}
+
+/*CONTACT desktop view*/
+
+@media (min-width: 1024px) {
+  .contact-wrapper {
+    padding: 120px 135px 100px 135px;
+  }
+  .h3-contact {
+    font-size: 38px;
+  }
+  .contact-wrapper>p {
+    font-size: 30px;
   }
 }
