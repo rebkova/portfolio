@@ -222,7 +222,7 @@ h2 {
 /*TECH tablet view*/
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  h3 {
+  h2 {
     font-size: 35px;
     margin-bottom: 43px;
   }
@@ -240,7 +240,7 @@ h2 {
 /*TECH desktop view*/
 
 @media (min-width: 1024px) {
-  h3 {
+  h2 {
     font-size: 48px;
     margin-bottom: 43px;
   }
@@ -710,7 +710,7 @@ li {
   .contact-wrapper {
     padding: 80px 125px 100px 125px;
   }
-  .h3-contact {
+  .h2-contact {
     font-size: 30px;
   }
   .contact-wrapper>p {
@@ -724,7 +724,7 @@ li {
   .contact-wrapper {
     padding: 120px 135px 100px 135px;
   }
-  .h3-contact {
+  .h2-contact {
     font-size: 38px;
   }
   .contact-wrapper>p {
