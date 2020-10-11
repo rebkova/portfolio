@@ -18,6 +18,8 @@ Lighthouse reported issues with:
 - Names and labels
 
 ##Accessibility testing:
+- Checked HTML using validator.w3.org and fixed reported errors
+- 
 
 Tools for ensuring high accessibility of the website:
 - contrast ratio: https://contrast-ratio.com/
