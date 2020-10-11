@@ -17,6 +17,7 @@ Lighthouse reported issues with:
 - Navigation
 - Names and labels
 
+##Accessibility testing:
 
 Tools for ensuring high accessibility of the website:
 - contrast ratio: https://contrast-ratio.com/
