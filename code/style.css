@@ -452,6 +452,7 @@ h3 {
   font-size: 21px;
   color: #000000;
   line-height: 1.5;
+  margin-bottom: 0;
 }
 
 /*INITIAL H6 POSITION*/
@@ -491,6 +492,9 @@ h3 {
     font-size: 25px;
     line-height: 1.5;
   }
+  .my-thoughts-text {
+    font-size: 21px;
+  }
 }
 
 /*MY THOUGHTS desktop view*/
@@ -522,6 +526,9 @@ h3 {
   .my-thoughts-title {
     font-size: 30px;
   }
+  .my-thoughts-text {
+    font-size: 25px;
+  }
 }
 
 /*** MORE THOUGHTS ***/
@@ -531,16 +538,14 @@ h3 {
   flex-direction: column;
 }
 
-.h4-more-thoughts {
-  margin-top: 24px;
-  line-height: 1.5;
-}
-
 /*MORE THOUGHTS tablet view*/
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .my-thoughts>h3 {
     margin-bottom: 20px;
+  }
+  .my-thoughts-text {
+    font-size: 21px;
   }
 }
 
@@ -549,6 +554,9 @@ h3 {
 @media (min-width: 1024px) {
   .my-thoughts>h3 {
     margin-bottom: 20px;
+  }
+  .my-thoughts-text {
+    font-size: 25px;
   }
 }
 
