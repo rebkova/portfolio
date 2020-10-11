@@ -1,34 +1,25 @@
 # portfolio
-My professional portfolio
 - FlexBox for layout
 - CSS for styling
 ##learning objectives
+The aim of this weeks' assignment was to brush up our HTML and CSS skills a bit more and get to focus on cross-browser testing, accessibility and responsiveness of our website.
 
-###tech
-Chrome extensions used:
-- screen reader:
-- alt checker: 
-Tools for checking accessibility:
-- Lighthouse in Chrome Dev tools (result: 86% accessibility,  )
-- axe Chrome extension
+###tech used
+Chrome extensions:
+- Lighthouse in Chrome Dev tools (result: 93% Performance, 95% Accessibility, 85% Best practices, 91% SEO)
+- ChromeVox Classic Extension screen reader
 
-Lighthouse reported issues with:
-- Contrast (not sure what could be improved here, the calculated contrast from contrast-ratio website reported ratio 3.36 : 1)
-- Navigation
-- Names and labels
+Other:
+- contrast ratio: https://contrast-ratio.com/ -> tool for ensuring the contrast ratio of colors used on a website is high enough
 
 ##Accessibility testing:
 - Checked HTML using validator.w3.org and fixed reported errors
-- 
-
-Tools for ensuring high accessibility of the website:
-- contrast ratio: https://contrast-ratio.com/
+- Checked the website with the ChromeVox Classic Extension screen reader. aria-hidden="true" attribute had to be added to some HTML tags containing decorative elements to prevent the reader from reading them.
 
 Page is responsive in: 
 - Chrome
 - FireFox
 - Edge
 
-The page has x % accessibility in xyz
-
 ####live
+http://rebeka-portfolio.netlify.app/ 

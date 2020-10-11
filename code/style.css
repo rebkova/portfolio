@@ -15,6 +15,7 @@ header {
   max-width: 100%;
   padding: 50px 35px 14px 35px;
   background-color: #072BCE;
+  background-size: cover;
 }
 
 .social-media-icons {
