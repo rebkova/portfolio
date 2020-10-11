@@ -168,7 +168,6 @@ h1:nth-child(4) {
 @media (min-width: 768px) and (max-width: 1023px) {
   .introduction {
     padding: 60px 125px 70px 125px;
-    background-color: #F4F4F4;
   }
   .introduction>p {
     font-size: 24px;
@@ -180,7 +179,6 @@ h1:nth-child(4) {
 @media (min-width: 1024px) {
   .introduction {
     padding: 110px 135px 110px 135px;
-    background-color: #F4F4F4;
   }
   .introduction>p {
     font-size: 30px;
@@ -270,9 +268,9 @@ h2 {
   color: #000000;
 }
 
-.featured:nth-child(2) {
+/* .featured:nth-child(2) {
   margin-bottom: 30px;
-}
+} */
 
 .featured-projects-text {
   font-family: 'Roboto', sans-serif;
