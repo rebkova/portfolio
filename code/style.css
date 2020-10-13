@@ -26,8 +26,6 @@ header {
 }
 
 .icon {
-  border: 3px solid #FFFFFF;
-  border-radius: 50%;
   margin: 0 1.5px;
 }
 
@@ -68,8 +66,8 @@ h1:nth-child(4) {
   border-radius: 50%;
   filter: brightness(1.1);
   position: absolute;
-  top: 14vh;
-  left: 60.5vw;
+  top: 130px;
+  right: 30px;
 }
 
 .hero-image {
@@ -105,8 +103,8 @@ h1:nth-child(4) {
   .profile-image {
     width: 170px;
     height: 170px;
-    top: 21vh;
-    left: 58.5vw;
+    top: 220px;
+    right: 100px;
   }
 }
 
@@ -208,6 +206,7 @@ h2 {
   padding: 60px 37px 70px 37px;
   background-color: #FFFFFF;
   text-align: center;
+  width: 100%;
 }
 
 /*TECH tablet view*/
@@ -622,15 +621,17 @@ li {
 }
 
 .icon-bottom {
-  border: 3px solid #fa382f;
-  border-radius: 50%;
-  margin: 0 20px;
+  width: 30px;
+  height: 30px;
 }
 
 .icon-bottom-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 3px solid #fa382f;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 .icon-bottom-wrapper>p {
