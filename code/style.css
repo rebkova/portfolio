@@ -2,13 +2,6 @@
   margin: 0;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  overflow: scroll;
-}
-
 /*** HEADER ***/
 
 header {
@@ -216,7 +209,6 @@ h2 {
   padding: 60px 37px 70px 37px;
   background-color: #FFFFFF;
   text-align: center;
-  width: 100%;
 }
 
 /*TECH tablet view*/
