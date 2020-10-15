@@ -7,8 +7,11 @@
 header {
   max-width: 100%;
   padding: 140px 35px 90px 35px;
-  background-color: #072BCE;
+  background-image: url(./assets/blueberries-by-Kelly-Lacy-from-Pexels.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .social-media-icons {
@@ -42,7 +45,6 @@ header {
   font-size: 13px;
   letter-spacing: 0.52px;
   color: #FFFFFF;
-  text-transform: uppercase;
   z-index: 1;
 }
 
@@ -187,8 +189,8 @@ h2 {
   font-size: 22px;
   font-weight: bold;
   color: #FFFFFF;
-  border: 1px solid #FA382F;
-  background-color: #FA382F;
+  border: 1px solid #40507E;
+  background-color: #40507E;
   padding: 3px 10px;
   margin-bottom: 37px;
   width: fit-content;
@@ -372,7 +374,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 21px;
   font-weight: bold;
-  color: #FA382F;
+  color: #40507E;
   margin-bottom: 20px;
   align-self: center;
 }
@@ -664,7 +666,7 @@ li {
 /*** CONTACT ***/
 
 .contact {
-  background-color: #072BCE;
+  background-color: #40507E;
 }
 
 .contact-wrapper {
@@ -679,8 +681,8 @@ li {
   font-size: 21px;
   font-weight: bold;
   color: #FFFFFF;
-  border: 1px solid #072BCE;
-  background-color: #072BCE;
+  border: 1px solid #40507E;
+  background-color: #40507E;
 }
 
 .contact-wrapper>p {
