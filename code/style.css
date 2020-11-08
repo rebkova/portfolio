@@ -95,6 +95,13 @@ h1:nth-child(4) {
     top: 6vh;
     left: 67vw;
   }
+  .img-padding {
+    padding: 15px;
+  }
+  .icon {
+    height: 34px;
+    width: 34px;
+  }
   .title-header {
     font-size: 21px;
     letter-spacing: 0.82px;
