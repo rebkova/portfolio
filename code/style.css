@@ -193,10 +193,13 @@ h1:nth-child(4) {
 
 @media (min-width: 1024px) {
   .introduction {
-    padding: 110px 135px 110px 135px;
+    display: flex;
+    justify-content: center;
+    padding: 110px 0;
   }
   .introduction>p {
     font-size: 30px;
+    width: 65%;
   }
 }
 
@@ -215,7 +218,7 @@ h2 {
   align-self: center;
 }
 
-.tech>p {
+.tech-container>p {
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
   font-weight: normal;
@@ -238,8 +241,11 @@ h2 {
     font-size: 35px;
     margin-bottom: 43px;
   }
-  .tech {
-    padding: 80px 125px 70px 125px;
+  .tech-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 0;
   }
   .tech>p {
     font-size: 24px;
@@ -252,15 +258,22 @@ h2 {
 /*TECH desktop view*/
 
 @media (min-width: 1024px) {
+  .tech {
+    padding: 0;
+  }
   h2 {
     font-size: 48px;
     margin-bottom: 43px;
   }
-  .tech {
-    padding: 90px 135px;
+  .tech-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 0px;
   }
-  .tech>p {
+  .tech-container>p {
     font-size: 30px;
+    width: 65%;
   }
   .text-red {
     color: #FA382F;
@@ -347,6 +360,11 @@ h2 {
 @media (min-width: 1024px) {
   .featured {
     margin: 5px;
+  }
+  .featured-projects-container {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
   }
   .featured:nth-child(2) {
     margin-bottom: 0;
