@@ -433,6 +433,12 @@ h3 {
   .other-projects {
     padding: 75px 135px 70px 135px;
   }
+  .other-projects-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 65%;
+  }
   h3 {
     font-size: 38px;
     margin-bottom: 30px;
@@ -512,7 +518,13 @@ h3 {
 
 @media (min-width: 1024px) {
   .my-thoughts {
-    padding: 105px 135px 0 135px;
+    padding-top: 105px;
+  }
+  .my-thoughts-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 65%;
   }
   .title-visible {
     display: none;
@@ -522,7 +534,7 @@ h3 {
   }
   .articles {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
   .article-wrapper {
     display: flex;
@@ -637,7 +649,13 @@ li {
 
 @media (min-width: 1024px) {
   .skills {
-    padding: 93px 135px;
+    padding: 93px 0;
+  }
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 65%;
   }
   .skills-wrapper-individual {
     padding: 0 30px;
