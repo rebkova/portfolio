@@ -124,11 +124,11 @@ h1:nth-child(4) {
 
 @media (min-width: 1024px) {
   header {
-    padding: 160px 135px 60px 135px;
+    padding: 160px 0;
   }
   .social-media-icons {
     top: 6vh;
-    right: 135px;
+    right: 16%;
   }
   .img-padding {
     padding: 20px;
@@ -136,6 +136,10 @@ h1:nth-child(4) {
   .icon {
     height: 44px;
     width: 44px;
+  }
+  .title {
+    width: 65%;
+    margin: 0 auto;
   }
   .title-header {
     font-size: 28px;
@@ -150,8 +154,8 @@ h1:nth-child(4) {
   .profile-image {
     width: 300px;
     height: 300px;
-    top: 27vh;
-    right: 115px;
+    top: 336px;
+    right: 13%;
   }
 }
 
