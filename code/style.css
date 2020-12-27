@@ -251,7 +251,7 @@ h2 {
     align-items: center;
     padding: 90px 0;
   }
-  .tech>p {
+  .tech-container>p {
     font-size: 24px;
   }
   .text-red {
@@ -347,6 +347,10 @@ h2 {
   .featured-projects {
     padding: 80px 125px 0 125px;
   }
+  .featured-projects-container {
+    display: flex;
+    flex-direction: column;
+  }
   .featured-projects-text {
     font-size: 21px;
     margin-top: 21px;
@@ -425,6 +429,10 @@ h3 {
   .other-projects {
     padding: 75px 125px 70px 125px;
   }
+  .other-projects-container {
+    display: flex;
+    flex-direction: column;
+  }
   h3 {
     font-size: 30px;
     margin-bottom: 30px;
@@ -498,6 +506,10 @@ h3 {
 @media (min-width: 768px) and (max-width: 1023px) {
   .my-thoughts {
     padding: 80px 125px 0 125px;
+  }
+  .my-thoughts-container {
+    display: flex;
+    flex-direction: column;
   }
   .article-wrapper {
     margin: 40px 0 20px 0;
@@ -640,6 +652,10 @@ li {
     margin-top: 65px;
     padding: 80px 125px;
   }
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+  }
   .skills-wrapper-individual {
     padding: 0 15px;
   }
@@ -708,6 +724,18 @@ li {
   font-weight: bold;
   color: #FA382F;
   margin-top: 12px;
+}
+
+/*FOR MORE tablet view*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .social-media-icons-bottom {
+    display: flex;
+    justify-content: center;
+  }
+  .icon-wrap {
+    margin: 0 15px;
+  }
 }
 
 /*FOR MORE desktop view*/
