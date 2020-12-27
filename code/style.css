@@ -222,6 +222,11 @@ h2 {
   align-self: center;
 }
 
+.tech-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .tech-container>p {
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
@@ -466,6 +471,11 @@ h3 {
   background-color: #FFFFFF;
 }
 
+.my-thoughts-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .article-wrapper {
   margin: 10px 0 35px 0;
 }
@@ -616,6 +626,11 @@ h3 {
   margin-top: 65px;
   background-color: #F4F4F4;
   padding: 57px 37px;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .skills-wrapper {
