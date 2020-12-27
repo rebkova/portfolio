@@ -481,6 +481,10 @@ h3 {
   flex-direction: column;
 }
 
+.title-hidden {
+  display: none;
+}
+
 .article-wrapper {
   margin: 10px 0 35px 0;
 }
@@ -489,8 +493,8 @@ h3 {
   text-decoration: none;
 }
 
-.title-hidden {
-  display: none;
+.thoughts-img-tablet-desktop {
+  width: 100%;
 }
 
 .article-date {
