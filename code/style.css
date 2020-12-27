@@ -246,6 +246,9 @@ h2 {
 /*TECH tablet view*/
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .tech {
+    padding: 60px 125px 70px;
+  }
   h2 {
     font-size: 35px;
     margin-bottom: 43px;
@@ -371,6 +374,10 @@ h2 {
 /*FEATURED PROJECTS desktop view*/
 
 @media (min-width: 1024px) {
+  .featured-projects {
+    /* padding: 80px 135px 0 135px; */
+    padding: 80px 0 0 0;
+  }
   .featured {
     margin: 5px;
   }
@@ -381,9 +388,6 @@ h2 {
   }
   .featured:nth-child(2) {
     margin-bottom: 0;
-  }
-  .featured-projects {
-    padding: 80px 135px 0 135px;
   }
   .featured-wrapper {
     display: flex;
@@ -448,7 +452,8 @@ h3 {
 
 @media (min-width: 1024px) {
   .other-projects {
-    padding: 75px 135px 70px 135px;
+    /* padding: 75px 135px 70px 135px; */
+    padding: 75px 0 70px 0;
   }
   .other-projects-container {
     display: flex;
@@ -544,7 +549,7 @@ h3 {
 
 @media (min-width: 1024px) {
   .my-thoughts {
-    padding-top: 105px;
+    padding: 105px 0 0 0;
   }
   .my-thoughts-container {
     display: flex;
@@ -566,7 +571,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 46%;
+    /* width: 46%; */
   }
   .article-date {
     font-size: 25px;
