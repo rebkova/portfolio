@@ -373,6 +373,7 @@ h2 {
 .featured-tag-wrapper {
   display: flex;
   justify-content: left;
+  flex-wrap: wrap;
 }
 
 .featured-tag {
@@ -434,7 +435,7 @@ h2 {
   } */
   .featured-wrapper {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
   }
   .featured-img-wrapper {
     height: 280px;
