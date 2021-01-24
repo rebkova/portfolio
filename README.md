@@ -13,7 +13,7 @@ Other:
 - WAVE: https://wave.webaim.org/ -> accessibility evaluation tool
 - contrast ratio: https://contrast-ratio.com/ -> tool for ensuring the contrast ratio of colors used is high enough
 
-## Accessibility testing :globe_with_meridians:
+## :globe_with_meridians: Accessibility testing 
 - Checked HTML using validator.w3.org and fixed reported errors
 - Checked the website with the ChromeVox Classic Extension screen reader. aria-hidden="true" attribute had to be added to some HTML tags containing decorative elements to prevent the screen reader from reading them.
 
