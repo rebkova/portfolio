@@ -618,13 +618,13 @@ h3 {
   }
   .articles {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   .article-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* width: 46%; */
+    width: 46%;
   }
   .article-date {
     font-size: 25px;
